@@ -126,6 +126,12 @@ new ExamQuestion
     Question = "What should happen when a requested resource cannot be found?",
     Answer = "B. Display a Not Found (404) response/page"
 },
+ new ExamQuestion
+{
+    Number = 20,
+    Question = "What is the main benefit of applying database constraints?",
+    Answer = "A. Data integrity"
+},
             };
 
             return View(questions);
