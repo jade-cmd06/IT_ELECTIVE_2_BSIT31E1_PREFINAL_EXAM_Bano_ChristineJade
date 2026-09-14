@@ -17,11 +17,11 @@ namespace IT_ELECTIVE_2_PREFINAL_EXAM.Controllers
 },
 
                 new ExamQuestion
-                {
-                    Number = 2,
-                    Question = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
-                    Answer = "B. Database-First"
-                },
+{
+    Number = 2,
+    Question = "Which approach is being used when an existing database is used to generate EF Core entity classes?",
+    Answer = "B. Database-First"
+},
 
                 new ExamQuestion
                 {
