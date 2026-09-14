@@ -90,6 +90,12 @@ new ExamQuestion
     Question = "What type of validation happens in the browser before a form is submitted?",
     Answer = "B. Client-side validation"
 },
+ new ExamQuestion
+{
+    Number = 14,
+    Question = "Why is server-side validation still necessary even when client-side validation is used?",
+    Answer = "A. Client-side validation can be bypassed"
+},
             };
 
             return View(questions);
