@@ -78,6 +78,12 @@ new ExamQuestion
     Question = "Why should a ViewModel be used in an ASP.NET Core MVC application?",
     Answer = "B. To combine or shape the data specifically needed by the view"
 },
+ new ExamQuestion
+{
+    Number = 12,
+    Question = "What happens when a navigation property is loaded using Include()?",
+    Answer = "A. It loads the related Section navigation property"
+},
             };
 
             return View(questions);
