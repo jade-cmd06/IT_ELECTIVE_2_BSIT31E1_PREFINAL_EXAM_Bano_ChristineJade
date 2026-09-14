@@ -60,6 +60,12 @@ new ExamQuestion
     Question = "Which key is used to connect a Student record to the Section table?",
     Answer = "B. Foreign key referencing Section"
 },
+new ExamQuestion
+{
+    Number = 9,
+    Question = "What does a foreign key represent in a relational database?",
+    Answer = "B. It represents a relationship to another entity"
+},
             };
 
             return View(questions);
