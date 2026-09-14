@@ -102,6 +102,12 @@ new ExamQuestion
     Question = "Which validation rule is important for a Student Number?",
     Answer = "B. Student Number should be unique"
 },
+ new ExamQuestion
+{
+    Number = 16,
+    Question = "Why are database constraints important?",
+    Answer = "A. They protect data integrity even if application-level validation is bypassed"
+},
             };
 
             return View(questions);
