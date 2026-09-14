@@ -10,11 +10,11 @@ namespace IT_ELECTIVE_2_PREFINAL_EXAM.Controllers
             var questions = new List<ExamQuestion>
             {
                 new ExamQuestion
-                {
-                    Number = 1,
-                    Question = "What is the main problem solved by using a database instead of an in-memory collection?",
-                    Answer = "C. It allows data to persist after the application stops"
-                },
+{
+    Number = 1,
+    Question = "What is the main problem solved by using a database instead of an in-memory collection?",
+    Answer = "C. It allows data to persist after the application stops"
+},
 
                 new ExamQuestion
                 {
