@@ -23,12 +23,12 @@ namespace IT_ELECTIVE_2_PREFINAL_EXAM.Controllers
     Answer = "B. Database-First"
 },
 
-                new ExamQuestion
-                {
-                    Number = 3,
-                    Question = "What is the primary purpose of Entity Framework Core?",
-                    Answer = "C. To map objects in code to relational database data"
-                },
+               new ExamQuestion
+{
+    Number = 3,
+    Question = "What is the primary purpose of Entity Framework Core?",
+    Answer = "C. To map objects in code to relational database data"
+},
                 new ExamQuestion
 {
     Number = 4,
