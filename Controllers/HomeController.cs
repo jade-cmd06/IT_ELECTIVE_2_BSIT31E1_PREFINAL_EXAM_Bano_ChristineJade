@@ -96,6 +96,12 @@ new ExamQuestion
     Question = "Why is server-side validation still necessary even when client-side validation is used?",
     Answer = "A. Client-side validation can be bypassed"
 },
+ new ExamQuestion
+{
+    Number = 15,
+    Question = "Which validation rule is important for a Student Number?",
+    Answer = "B. Student Number should be unique"
+},
             };
 
             return View(questions);
