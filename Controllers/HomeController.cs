@@ -108,6 +108,12 @@ new ExamQuestion
     Question = "Why are database constraints important?",
     Answer = "A. They protect data integrity even if application-level validation is bypassed"
 },
+ new ExamQuestion
+{
+    Number = 17,
+    Question = "Why should exceptions be handled in an ASP.NET Core MVC application?",
+    Answer = "B. To catch and handle exceptions that may occur during execution"
+},
             };
 
             return View(questions);
