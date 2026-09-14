@@ -84,6 +84,12 @@ new ExamQuestion
     Question = "What happens when a navigation property is loaded using Include()?",
     Answer = "A. It loads the related Section navigation property"
 },
+ new ExamQuestion
+{
+    Number = 13,
+    Question = "What type of validation happens in the browser before a form is submitted?",
+    Answer = "B. Client-side validation"
+},
             };
 
             return View(questions);
