@@ -1,0 +1,36 @@
+﻿@model List<IT_ELECTIVE_2_PREFINAL_EXAM.Models.ExamQuestion>
+
+<div class="container py-5">
+
+    <div class="text-center mb-5">
+        <h1>IT Elective 2</h1>
+        <h2>Pre-Finals Examination</h2>
+        <p class="text-muted">Web System and Technologies</p>
+
+        <hr />
+
+        <h5>Christine Jade Bano</h5>
+        <p>BSIT 31E1</p>
+    </div>
+
+    @foreach (var item in Model)
+    {
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+
+                <h4>Question @item.Number</h4>
+
+                <p class="mt-3">
+                    @item.Question
+                </p>
+
+                <div class="alert alert-success">
+                    <strong>Answer:</strong>
+                    @item.Answer
+                </div>
+
+            </div>
+        </div>
+    }
+
+</div>

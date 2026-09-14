@@ -1,0 +1,73 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+body {
+    background-color: #f8f1ed;
+    font-family: Arial, sans-serif;
+    color: #2f2f2f;
+}
+
+h1 {
+    color: #333333;
+    font-weight: bold;
+}
+
+h2 {
+    color: #e8a6b7;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #fffaf7;
+    border: 2px solid #f2c6d0;
+    border-radius: 15px;
+}
+
+    .card h4 {
+        color: #d98fa3;
+        font-weight: bold;
+    }
+
+    .card p {
+        font-size: 17px;
+    }
+
+.alert-success {
+    background-color: #fce4ec;
+    border: 1px solid #e8a6b7;
+    color: #5c4148;
+    border-radius: 10px;
+}
+
+hr {
+    border-color: #e8a6b7;
+}
