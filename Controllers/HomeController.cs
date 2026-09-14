@@ -72,6 +72,12 @@ new ExamQuestion
                     Question = "What is the purpose of using Include() in an Entity Framework Core query?",
                     Answer = "B. Load related Section data together with Students"
                 },
+ new ExamQuestion
+{
+    Number = 11,
+    Question = "Why should a ViewModel be used in an ASP.NET Core MVC application?",
+    Answer = "B. To combine or shape the data specifically needed by the view"
+},
             };
 
             return View(questions);
