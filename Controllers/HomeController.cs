@@ -114,6 +114,12 @@ new ExamQuestion
     Question = "Why should exceptions be handled in an ASP.NET Core MVC application?",
     Answer = "B. To catch and handle exceptions that may occur during execution"
 },
+ new ExamQuestion
+{
+    Number = 18,
+    Question = "Which method is commonly used to handle exceptions globally in ASP.NET Core?",
+    Answer = "B. UseExceptionHandler()"
+},
             };
 
             return View(questions);
