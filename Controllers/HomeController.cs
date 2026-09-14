@@ -120,6 +120,12 @@ new ExamQuestion
     Question = "Which method is commonly used to handle exceptions globally in ASP.NET Core?",
     Answer = "B. UseExceptionHandler()"
 },
+ new ExamQuestion
+{
+    Number = 19,
+    Question = "What should happen when a requested resource cannot be found?",
+    Answer = "B. Display a Not Found (404) response/page"
+},
             };
 
             return View(questions);
