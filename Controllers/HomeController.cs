@@ -66,6 +66,12 @@ new ExamQuestion
     Question = "What does a foreign key represent in a relational database?",
     Answer = "B. It represents a relationship to another entity"
 },
+ new ExamQuestion
+                {
+                    Number = 10,
+                    Question = "What is the purpose of using Include() in an Entity Framework Core query?",
+                    Answer = "B. Load related Section data together with Students"
+                },
             };
 
             return View(questions);
