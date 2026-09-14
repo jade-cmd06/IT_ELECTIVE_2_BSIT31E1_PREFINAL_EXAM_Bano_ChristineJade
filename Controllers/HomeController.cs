@@ -29,7 +29,7 @@ namespace IT_ELECTIVE_2_PREFINAL_EXAM.Controllers
     Question = "What is the primary purpose of Entity Framework Core?",
     Answer = "C. To map objects in code to relational database data"
 },
-                new ExamQuestion
+               new ExamQuestion
 {
     Number = 4,
     Question = "Which class is responsible for managing database connections and tracking changes in Entity Framework Core?",
